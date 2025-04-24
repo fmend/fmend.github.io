@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Freddy Mendoza / ML Software Developer"
+title                    : "Freddy Mendoza | ML Software Developer"
 title_separator          : "-"
 name                     : &name "Freddy Mendoza"
 description              : &description "Freddy is a software developer who specializes in machine learning and natural language processing."
