@@ -12,9 +12,13 @@ redirect_from:
 Education
 ======
 **BA in Linguistics with Computer Science Minor 2020-2023**
+
 A minor in computer science prepared me for the advanced programming required by my MS, while my major allows me a detailed understanding of language structure, critical for NLP. Proficiency in Python, Java, R, and Perl.
+
 **M.S. in Human Language Technology 2023-2025**
+
 Course work includes search engine optimization, information retrieval, speech synthesis, application of LLMs, advanced computational linguistics, word vectorization, logistic regression, and NLP, among others.
+
 
 Work experience
 ======
