@@ -15,7 +15,7 @@ Education
 
 A minor in computer science prepared me for the advanced programming required by my MS, while my major allows me a detailed understanding of language structure, critical for NLP. Proficiency in Python, Java, R, and Perl.
 
-**M.S. in Human Language Technology • University of Arizona • August 2023- May 2025**
+**MS in Human Language Technology • University of Arizona • August 2023- May 2025**
 
 Course work includes search engine optimization, information retrieval, speech synthesis, application of LLMs, advanced computational linguistics, word vectorization, logistic regression, and NLP, among others.
 
