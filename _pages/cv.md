@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-**BA in Linguistics with Computer Science Minor • University of Arizona • 2020-2023**
+**BA in Linguistics with Computer Science Minor • University of Arizona • August 2020-May 2023**
 
 A minor in computer science prepared me for the advanced programming required by my MS, while my major allows me a detailed understanding of language structure, critical for NLP. Proficiency in Python, Java, R, and Perl.
 
