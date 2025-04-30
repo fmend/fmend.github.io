@@ -32,18 +32,11 @@ Years in the service industry taught me valuable communication skills, teamwork,
   
 Skills
 ======
-Python (primary), Java, R, Perl
-
-Natural Language Processing
-
-Large Language Models
-
-Machine Learning
-
-Search Engine Optimization
-
-RAG
-
-Communication
-
-Bilingual (Spanish)
+Python (primary), Java, R, Perl /n
+Natural Language Processing /n
+Large Language Models /n
+Machine Learning /n
+Search Engine Optimization /n
+RAG /n
+Communication /n
+Bilingual (Spanish) /n
