@@ -27,6 +27,7 @@ Work experience
 Developed and maintained a RAG evaluation pipeline which sourced from diverse datasets to optimize the startup’s LLM Assistant performance. Implemented automated testing which improved recall, F1 scores, MRR, and others. Collaborated directly with founders Joel Christner and Blake Martz to architect evaluation metrics including context relevance, response accuracy, and hallucination detection. Contributed to core prompt engineering and context retrieval strategies.
 
 **Barista/Roaster • Exo Roast Co. • October 2016-June 2024**
+
 Years in the service industry taught me valuable communication skills, teamwork, sharp attention to detail, as well as leadership as a trainer of new employees. 
   
 Skills
