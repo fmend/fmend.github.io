@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-#**Education**
+# **Education**
 
 **BA in Linguistics with Computer Science Minor • University of Arizona • August 2020-May 2023**
 
