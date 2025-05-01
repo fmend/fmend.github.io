@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-# **Education**
+## Education
 
 **BA in Linguistics with Computer Science Minor • University of Arizona • August 2020-May 2023**
 
@@ -30,8 +30,8 @@ Developed and maintained a RAG evaluation pipeline which sourced from diverse da
 
 Years in the service industry taught me valuable communication skills, teamwork, sharp attention to detail, as well as leadership as a trainer of new employees. 
   
-Skills
-======
+## Skills
+
 Python (primary), Java, R, Perl <br>
 Natural Language Processing <br>
 Large Language Models <br>
