@@ -9,8 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
+#**Education**
+
 **BA in Linguistics with Computer Science Minor • University of Arizona • August 2020-May 2023**
 
 A minor in computer science prepared me for the advanced programming required by my MS, while my major allows me a detailed understanding of language structure, critical for NLP. Proficiency in Python, Java, R, and Perl.
@@ -21,7 +21,7 @@ Course work includes search engine optimization, information retrieval, speech s
 
 
 Work experience
-======
+
 **Sofware Engineer Intern • View Systems • October 2024-April 2025**
 
 Developed and maintained a RAG evaluation pipeline which sourced from diverse datasets to optimize the startup’s LLM Assistant performance. Implemented automated testing which improved recall, F1 scores, MRR, and others. Collaborated directly with founders Joel Christner and Blake Martz to architect evaluation metrics including context relevance, response accuracy, and hallucination detection. Contributed to core prompt engineering and context retrieval strategies.
