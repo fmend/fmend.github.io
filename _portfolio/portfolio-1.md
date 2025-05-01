@@ -1,6 +1,6 @@
 ---
-title: "Your HLT Internship (with a much more explanatory title)"
-excerpt: "Short description of the goals and content of your internship<br/><img src='/images/500x300.png'>"
+title: "RAG Evaluation and Chat Assistant Optimization"
+excerpt: "Working with the startup's development team to improve their retrieval pipeline and optimize thier chat assistant.<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
