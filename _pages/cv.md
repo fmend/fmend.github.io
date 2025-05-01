@@ -20,7 +20,7 @@ A minor in computer science prepared me for the advanced programming required by
 Course work includes search engine optimization, information retrieval, speech synthesis, application of LLMs, advanced computational linguistics, word vectorization, logistic regression, and NLP, among others.
 
 
-## Work experience
+## Work Experience
 
 **Sofware Engineer Intern • View Systems • October 2024-April 2025**
 
