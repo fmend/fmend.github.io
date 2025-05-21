@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "This is a ready-to-use GitHub Pages template for UAZHLT professional websites"
+title: "Freddy Mendoza"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,13 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [AcademicPages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from [the AcademicPages repository](https://github.com/academicpages/academicpages.github.io), which itself was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then tailored to the components required for the UAZHLT professional website: two HLT projects within a portfolio, the potential for blog posts, and a dynamically-generated CV. You can create your own repository from this template, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free.
+I am a Master's of Science student at the University of Arizona in their Human Language Technology program. In 2023, I graduated cum laude from the University of Arizona with a BA in Linguistics and a minor in Computer Science.
 
-This particular file should hold your professional introduction. It can be edited in `_pages/about.md`. You don't need to save any of the page *content* that was here, since it is recoverable from [the template](https://github.com/uazhlt/professionalGHpages.github.io), should you need it.
-
-What should be on this site
+My BA
 ======
-Remember that your professional website is intended to document what you did in your internship and in at least one other coding project, in order to share it with a technically savvy audience who might not be familiar with the details of the tools you used or the goals you were pursuing. That audience may include hiring managers, so this is your opportunity to demonstrate the marketable skills you've acquired through the MSHLT program. You want it to present your best professional self! Your website will also be evaluated by a faculty member and form part of your grade for your internship. Although the template repository will hold a stub for all the elements that are required, be sure to compare the site you build to the current evaluation rubric, which is available from the director of your program.
+In 2018, I tentatively dipped my toes back into school after having dropped out in 2010 due to feelings of aimlessness in my educational endeavors at the time. The much-needed years away allowed me to sharpen my interests, giving me space to confidently choose the direction I wanted to take. I have had a lifelong interest in language, nourished by a deep love for books and writing, though I had failed to recognize that as a viable area of study among the myriad interests of a 17-year-old brain.
+
+As I prepared myself to return to the U of A by taking prerequisites at Pima Community College, I ran into a Ph.D. student who turned my attention to their HLT M.S. program. Already having had an interest in coding, it was an easy decision to declare C.S. as my minor.
+
+At the U of A, I was lucky to study semantics, syntax, phonetics, and many other linguistic areas that I was surprised to find strongly supported certain areas of computer science, especially as they relate to natural language processing. 
 
 Getting started
 ======
