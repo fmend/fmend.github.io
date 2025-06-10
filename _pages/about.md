@@ -24,9 +24,11 @@ In 2023, I began the HLT program at the U of A. I began to dig a little deeper o
 
 During this time, I was enlightened to the linguistic underbelly of machine learning. I was able to apply my knowledge of syntax and semantics to many projects in various classes, while learning a bit more about phonology and phonetics in speech tech.
 
-For my internship, I got to work with Joel Christner at his startup, View Systems. There, I got to contribute to the development of their RAG evaluation pipeline and core prompt engineering. I tested their LLM Assistant to try and improve context retrieval strategies depending on the type of data being supplied to the RAG pipeline. Here, I got to explore the vast world of embedding and rerank models, implementing many of them as a means of improving retrieval to their Assistant.
+For my internship, I got to work with Joel Christner at his startup, [View Systems](https://www.view.io). There, I got to contribute to the development of their RAG evaluation pipeline and core prompt engineering. I tested their LLM Assistant to try and improve context retrieval strategies depending on the type of data being supplied to the RAG pipeline. Here, I got to explore the vast world of embedding and rerank models, implementing many of them as a means of improving retrieval to their Assistant.
 
 
+
+Throughout my education, I have worked full-time at a few different spots, so my schedule was always pretty loaded. However, I tried my best to find time to do some of the things I love, including reading too-long fantasy/sci-fi series, getting out on the tennis court, and spending time with friends and family.
 
 Getting started
 ======
