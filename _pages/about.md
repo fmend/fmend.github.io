@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Master's of Science student at the University of Arizona in their Human Language Technology program. In 2023, I graduated cum laude from the University of Arizona with a BA in Linguistics and a minor in Computer Science.
+I am a Master's of Science student at the University of Arizona in their [Human Language Technology program](https://linguistics.arizona.edu/ms-hlt). In 2023, I graduated cum laude from the University of Arizona with a BA in Linguistics and a minor in Computer Science.
 
 My BA
 ======
