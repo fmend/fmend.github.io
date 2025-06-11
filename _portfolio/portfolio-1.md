@@ -4,7 +4,7 @@ excerpt: "Working with the View Systems' development team to improve their retri
 collection: portfolio
 ---
 
-The primary goal of my internship at View Systems was to develop and maintain a Retrieval-Augmented Generation (RAG) evaluation pipeline for their LLM Assistant. They wanted to get an idea of the settings they would need for each individual user depending on the type of data they were using on their product. This required building an external RAG pipeline (from the UI) so that I could run largescale tests on data to evaluate performance. I had the opportunity to work with founder and CEO Joel Christner and cofounder and Senior Software Engineer Blake Martz on this project.
+The primary goal of my internship at View Systems was to develop and maintain a Retrieval-Augmented Generation (RAG) evaluation pipeline for their LLM Assistant. They wanted to get an idea of the settings they would need for each individual user depending on the type of data they were using on their product. This required building an external RAG pipeline (from the UI) so that I could run largescale tests on data to evaluate performance. I had the opportunity to work with founder and CEO Joel Christner and cofounder and Senior Member of Technical Staff and Software Engineer Blake Martz on this project.
 
 ## Evaluation criteria
 Remember that each of the two projects in your portfolio will be evaluated on these points:
