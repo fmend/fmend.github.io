@@ -4,9 +4,7 @@ excerpt: "Working with the View Systems' development team to improve their retri
 collection: portfolio
 ---
 
-This is an item in your portfolio that describes your internship. It can have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML.
-
-As you're describing the content of your internship, be sure to describe how you were able to apply the concepts and skills you acquired from HLT courses to your internship. You'll also want to describe the things that you learned from the internship itself that might help you in future work.
+The primary goal of my internship at View Systems was to develop and maintain a Retrieval-Augmented Generation (RAG) evaluation pipeline for their LLM Assistant. They wanted to get an idea of the settings they would need for each individual user depending on the type of data they were using on their product. This required building an external RAG pipeline (from the UI) so that I could run largescale tests on data to evaluate performance. I had the opportunity to work with founder and CEO Joel Christner and cofounder and Senior Software Engineer Blake Martz on this project.
 
 ## Evaluation criteria
 Remember that each of the two projects in your portfolio will be evaluated on these points:
