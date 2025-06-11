@@ -6,6 +6,10 @@ collection: portfolio
 
 The primary goal of my internship at [View Systems](https://www.view.io) was to develop and maintain a Retrieval-Augmented Generation (RAG) evaluation pipeline for their LLM Assistant. They wanted to get an idea of the settings they would need for each individual user depending on the type of data they were using on their product. This required building an external RAG pipeline (from the UI) so that I could run largescale tests on data to evaluate performance. I had the opportunity to work with Founder and CEO Joel Christner and cofounder and Senior Member of Technical Staff and Software Engineer Blake Martz on this project.
 
+## Introduction to View Systems
+
+View is an AI company which aims to provide an LLM Assistant that can be used locally, extracting information from an individual repository to provide the power of LLMs on an individual's data without having to outsource it.
+
 ## Evaluation criteria
 Remember that each of the two projects in your portfolio will be evaluated on these points:
 
