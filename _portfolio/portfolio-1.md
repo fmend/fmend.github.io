@@ -8,7 +8,7 @@ The primary goal of my internship at [View Systems](https://www.view.io) was to 
 
 ## A Brief Introduction to View Systems
 
-View is an AI company which aims to provide an LLM Assistant that can be used on-premises, allowing a user to supply their own data and harness the power of an LLM without having to outsource sensitive information. While this is the foundational product for their company, they also supply a similar service in the form of a SAAS product, giving the user the option of operating on a completely online format rather than downloading the whole package while touting a secure platform in this method.
+View is an AI company which aims to provide an LLM Assistant that can be used on-premises, allowing a user to supply their own data and harness the power of an LLM without having to outsource sensitive information. While this is the foundational product for their company, they also supply a similar service in the form of a SAAS product, giving the user the option of operating on a completely online, secure format rather than downloading the whole package.
 
 ## Evaluation criteria
 Remember that each of the two projects in your portfolio will be evaluated on these points:
