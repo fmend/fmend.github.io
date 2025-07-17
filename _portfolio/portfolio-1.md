@@ -14,11 +14,11 @@ As a startup, their team was incredibly small---I was one of twelve employees to
 
 ## Onboarding & Initial Tasks
 
-As can be expected, I spent the first couple of weeks preparing my machine for the work ahead, as well as adapting to the API and workflow at View. After I got my bearings, my supervisor, Blake Martz, instructed me with the task of building a simple RAG pipeline. With some research, I was able to get together a simple enough pipeline with some simple metrics that could be used to evaluate RAG systems and gauge their performance. I started out with a demonstration of recall, precision, and F1 scores. Before I had arrived they did not have an Natural Langauge Processing (NLP) specialist, so much of my initial conversations with other developers was small instruction on the fundamentals of NLP and what these scores mean regarding their system.
+As can be expected, I spent the first couple of weeks preparing my machine for the work ahead, as well as adapting to the API and workflow at View. After I got my bearings, my supervisor, Blake Martz, instructed me with the task of building a simple RAG pipeline. With some research, I was able to get together a simple enough pipeline with some simple metrics that could be used to evaluate RAG systems and gauge their performance. I started out with a demonstration of recall, precision, and F1 scores. Before I had arrived they did not have a Natural Language Processing (NLP) specialist, so much of my initial conversations with other developers was small instruction on the fundamentals of NLP and what these scores mean regarding their system.
 
 ## Implementation & Adaptation
 
-The next few weeks had me working very closely with Blake as it was time to put thoery and research into practice. This was very exciting as it was the first time that I was able to see, on a grander scale, what years of study looks like at implementation. Of course, this came with many hiccups that took tedious attention to detail to solve; building an all-new branch for an already established system is not as simple as it sounds. 
+The next few weeks had me working very closely with Blake as it was time to put theory and research into practice. This was very exciting as it was the first time that I was able to see, on a grander scale, what years of study looks like at implementation. Of course, this came with many hiccups that took tedious attention to detail to solve; building an all-new branch for an already established system is not as simple as it sounds. 
 
 ## Evaluation criteria
 Remember that each of the two projects in your portfolio will be evaluated on these points:
