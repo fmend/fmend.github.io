@@ -18,7 +18,7 @@ As can be expected, I spent the first couple of weeks preparing my machine for t
 
 ## Implementation & Adaptation
 
-
+The next few weeks had me working very closely with Blake as it was time to put thoery and research into practice. This was very exciting as it was the first time that I was able to see, on a grander scale, what years of study looks like at implementation. Of course, this came with many hiccups that took tedious attention to detail to solve; building an all-new branch for an already established system is not as simple as it sounds. 
 
 ## Evaluation criteria
 Remember that each of the two projects in your portfolio will be evaluated on these points:
