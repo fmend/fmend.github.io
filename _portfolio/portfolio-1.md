@@ -18,7 +18,11 @@ As can be expected, I spent the first couple of weeks preparing my machine for t
 
 ## Implementation & Adaptation
 
-The next few weeks had me working very closely with Blake as it was time to put theory and research into practice. This was very exciting as it was the first time that I was able to see, on a grander scale, what years of study looks like at implementation. Of course, this came with many hiccups that took tedious attention to detail to solve; building an all-new branch for an already established system is not as simple as it sounds. 
+The next few weeks had me working very closely with Blake as it was time to put theory and research into practice. This was very exciting as it was the first time that I was able to see, on a grander scale, what years of study looks like at implementation. Of course, this came with many hiccups that took tedious attention to detail to solve; building an all-new branch for an already established system is not as simple as it sounds.
+
+I initiated utilizing the Stanford Question Answering Dataset (SQuAD) for this project. SQuAD is comprised of Wikipedia articles and question-answer pairs from those articles, which was perfect for testing the retrieval of their RAG pipeline. SQuAD also has an additional dataset called SQuADShifts, which has alternate data sources, such as Reddit, Amazon Reviews, and New York Times articles and comments. Each of these datasets has the same format, meaning I needed to do minimal formatting from dataset to dataset to allow for robust testing across diverse data.
+
+
 
 ## Evaluation criteria
 Remember that each of the two projects in your portfolio will be evaluated on these points:
