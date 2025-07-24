@@ -22,6 +22,8 @@ Through systematic research and implementation, I developed a baseline evaluatio
 
 The subsequent development phase involved intensive collaboration with Blake to transition from theoretical framework to production implementation. This represented my first opportunity to apply academic knowledge at a professional level, though it presented numerous technical challenges requiring meticulous attention to architectural details and system integration complexities.
 
+This process revealed the sometimes stark differences between acadamic theory and actual production in professional settings. I needed to ensure that the evaluation pipeline could maintain consistent performance under varying load conditions and provide reliable metrics across different data distributions. This required implementing robust error handling and standardized logging mechanisms to track system performance.
+
 I initiated utilizing the Stanford Question Answering Dataset (SQuAD) as the primary evaluation benchmark. SQuAD is comprised of Wikipedia articles and corresponding question-answer pairs, which was perfect for testing the retrieval of their RAG pipeline. The choice of SQuAD was strategic, as its established ground truth answers provide reliable standards for measuring retrieval accuracy and answer quality. I further incorporated SQuADShifts, which has alternate datasets from sources such as Reddit, Amazon reviews, and New York Times articles and comments. The consistent formatting across these datasets enabled efficient cross-domain evaluation with minimal preprocessing requirements, facilitating robust assessment across diverse data sources.
 
 The dataset interation process required careful consideration of data preprocessing pipelines to ensure fair comparison across different domains. I developed formatting procedures that preserved the unique characteristics of each data source while maintaining consistency in evaluation methods. This preprocessing framework became a crucial component of the overall evaluation system, enabling seemless switching between datasets during optimization cycles.
@@ -29,6 +31,8 @@ The dataset interation process required careful consideration of data preprocess
 ## Performance Optimization and Model Selection
 
 I conducted extensive systematic testing campaigns, typically processing approximately 10,000 queries per evaluation cycle. My optimization methodology involved iterative single-variable adjustment to identify optimal system configurations for both retrieval accuracy and response quality. This systematic approach ensured that performance improvements could be attributed to specific parameter changes rather than random variation. Initial optimization focused on core system parameters including maximum concurrency levels, max token allocation per retrieved chunk, reranking topK values, and generation model prompt engineering.
+
+The reranking topK parameter revealed the most interesting insights during this phase about the relationship between initial retrieval quality and reranking effectiveness. I discovered that while higher topK values generally improved final accuracy, the gains were usually marginal and certainly diminished beyond certain thresholds. This suggested that effective initial retrieval was more important than extensive reranking for overall system performance.
 
 Upon reaching optimized settings through parameter tuning, I shifted focus to core model optimization, systematically evaluating alternative architectures for the generation, embedding, and reranking components. While generation model optimization built upon previous experimentation, the embedding and reranking model selection required comprehensive research to balance performance improvements against processing latency constraints.
 
@@ -43,6 +47,8 @@ The embedding model transition from sentence-transformers/all-MiniLM-L6-v2 to th
 ## Impact and Departure
 
 This project successfully established View Systems' first comprehensive RAG evaluation infrastructure, enabling data-driven optimization decisions and providing the foundation for user-specific parameter customization. The evaluation pipeline I developed continues to serve as the primary performance assessment tool for their LLM Assistant product, directly supporting their go-to-market strategy and customer onboarding processes.
+
+The optimization insights I generated through systemic testing informed not only immediate product improvements but could also improve long-term architectural decisions. Furthermore, the diverse dataset evaluation approach I implemented demonstrated the robustness of optimized configurations across different domains, hopefully providing View Systems with confidence in their ability to serve customers across diverse industries and use cases. My work contributed directly to View Systems' product, providing the performance validation and optimization capabilities to show product viability to early customers. 
 
 ## Evaluation criteria
 Remember that each of the two projects in your portfolio will be evaluated on these points:
