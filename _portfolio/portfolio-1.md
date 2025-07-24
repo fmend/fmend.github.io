@@ -4,7 +4,7 @@ excerpt: "Working with the View Systems' development team to improve their retri
 collection: portfolio
 ---
 
-The primary goal of my internship at [View Systems](https://www.view.io) was to develop and maintain a Retrieval-Augmented Generation (RAG) evaluation pipeline for their LLM Assistant. They wanted to get an idea of the settings they would need for each individual user depending on the type of data they were using on their product. This required building an external RAG pipeline (from the UI) so that I could run largescale tests on data to evaluate performance. I had the opportunity to work with Founder and CEO, Joel Christner, and cofounder and Senior Member of Technical Staff and Software Engineer, Blake Martz, on this project.
+The primary objective of my internship at [View Systems](https://www.view.io) was to develop and maintain a comprehensive Retrieval-Augmented Generation (RAG) evaluation pipeline for their LLM Assistant product. The company sought to determine optimal configuration parameters for individual users based on their specific data characteristics and use cases. This required architecting an external RAG pipeline independent of the user interface to enable large-scale performance testing and optimization. I collaborated directly with Founder and CEO Joel Christner and Co-founder and Senior Member of Technical Staff Blake Martz throughout this initiative.
 
 ## A Brief Introduction to View Systems
 
