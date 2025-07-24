@@ -8,13 +8,15 @@ The primary objective of my internship at [View Systems](https://www.view.io) wa
 
 ## A Brief Introduction to View Systems
 
-View is an AI startup company which aims to provide an LLM Assistant that can be used on-premises, allowing a user to supply their own data and harness the power of an LLM without having to outsource sensitive information. While this is the foundational product for their company, they also supply a similar service in the form of a SAAS product, giving the user the option of operating on a secure, completely online format rather than downloading the whole package.
+View Systems is an AI startup focused on delivering on-premises LLM Assistant solutions that enable organizations to leverage large language models while maintaining complete data sovereignty. Their core product allows users to deploy AI capabilities locally with their proprietary data, eliminating the need to transmit sensitive information to external services. The company also offers a secure SaaS alternative for organizations preferring cloud-based deployment while maintaining stringent security standards.
 
-As a startup, their team was incredibly small---I was one of twelve employees to attend weekly meetings for the company, which included all their developers. It was impressive to see the work they had done with such a small group in just over a year, having launched their beta product midway through my internship in early December 2024.
+As a lean startup organization, View Systems operated with remarkable efficiency—I was among twelve employees participating in weekly company-wide meetings, which included the entire development team. The team's accomplishments were particularly impressive given their size, successfully launching their beta product in early December 2024, midway through my internship.
 
-## Onboarding & Initial Tasks
+## Onboarding & Initial Implementation
 
-As can be expected, I spent the first couple of weeks preparing my machine for the work ahead, as well as adapting to the API and workflow at View. After I got my bearings, my supervisor, Blake Martz, instructed me with the task of building a simple RAG pipeline. With some research, I was able to get together a simple enough pipeline with some simple metrics that could be used to evaluate RAG systems and gauge their performance. I started out with a demonstration of recall, precision, and F1 scores. Before I had arrived they did not have a Natural Language Processing (NLP) specialist, so much of my initial conversations with other developers was small instruction on the fundamentals of NLP and what these scores mean regarding their system. I also began researching other metrics which might be useful to their sytem and what we wanted to accomplish. I got myself acquainted with semantic similarity, faithfulness, and mean reciprocal rank, and added them to my pipeline.
+My onboarding period involved establishing the development environment and familiarizing myself with View Systems' existing API architecture and development workflows. Under the guidance of my supervisor Blake Martz, I initially focused on constructing a foundational RAG pipeline with essential evaluation capabilities.
+
+Through systematic research and implementation, I developed a baseline evaluation framework incorporating fundamental NLP metrics including recall, precision, and F1 scores. Given that View Systems had not previously employed an NLP specialist, I provided technical guidance to the development team on these core evaluation methodologies and their implications for system performance assessment. I subsequently expanded the evaluation to include advanced metrics such as semantic similarity, faithfulness measures, and mean reciprocal rank, creating a more comprehensive performance analysis framework.
 
 ## Implementation & Adaptation
 
