@@ -1,6 +1,6 @@
 ---
 title: "Neural Language Model Story Completion: A Comparative Analysis"
-excerpt: "Short description of the goals and content of your project<br/><img src='/images/500x300.png'>"
+excerpt: "A comparative evaluation of three neural language models on story completion tasks, analyzing their performance trade-offs between efficiency, semantic coherence, and fluency.<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
