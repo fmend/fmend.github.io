@@ -1,6 +1,6 @@
 ---
 title: "RAG Evaluation and Chat Assistant Optimization"
-excerpt: "Working with the View Systems' development team to improve their retrieval pipeline and optimize thier chat assistant.<br/><br/><img src='/images/view_logo.jpg'>"
+excerpt: "Working with the View Systems' development team to improve their retrieval pipeline and optimize thier chat assistant.<br/><br/><img src='/images/view_logo.jpg' width="500" length="300">"
 collection: portfolio
 ---
 
