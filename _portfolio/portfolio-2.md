@@ -20,7 +20,7 @@ One of my most important design decisions was implementing comprehensive error h
 
 The generation parameters required particular tuning. I settled on a temperature of 0.7 with sampling enabled, which provided a balance between creativity and coherence. The maximum token limit of 30 for new generation was chosen after extensive experimentation. Too few tokens resulted in incomplete thoughts, while too many led to rambling continuations that strayed from the narrative focus.
 
-<img src='/images/rocstoriesFirstImage.png'>
+<img src='/images/rocstoriesFirstImage.png' width='500' length='300'>
 
 ## Evaluation Methodology and Metrics
 
@@ -36,7 +36,7 @@ The most surprising results came from BART-base. Its content similarity scores w
 
 This discovery led me to a deeper understanding of the fundamental differences between autoregressive and sequence-to-sequence architectures in story completion tasks. BART, trained with a denoising objective, seemed to prioritize linguistic certainty over semantic expansion, while the GPT models, trained on next-token prediction, were more willing to take creative risks that sometimes paid off in better semantic similarity.
 
-<img src='/images/rocstoriesSecondImage.png'>
+<img src='/images/rocstoriesSecondImage.png' width='500' length='300'>
 
 ## Technical Challenges and Problem-Solving
 
