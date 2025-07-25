@@ -18,6 +18,8 @@ My onboarding period involved establishing the development environment and famil
 
 Through systematic research and implementation, I developed a baseline evaluation framework incorporating fundamental NLP metrics including recall, precision, and F1 scores. Given that View Systems had not previously employed an NLP specialist, I provided technical guidance to the development team on these core evaluation methodologies and their implications for system performance assessment. I subsequently expanded the evaluation to include advanced metrics such as semantic similarity, faithfulness measures, and mean reciprocal rank, creating a more comprehensive performance analysis framework.
 
+<img src='/images/viewDocMetrics.png' width='500' length='300'>
+
 ## Integration & Optimization
 
 The subsequent development phase involved intensive collaboration with Blake to transition from theoretical framework to production implementation. This represented my first opportunity to apply academic knowledge at a professional level, though it presented numerous technical challenges requiring meticulous attention to architectural details and system integration complexities.
@@ -32,6 +34,8 @@ The dataset integration process required careful consideration of data preproces
 
 I conducted extensive systematic testing runs, typically processing approximately 10,000 queries per evaluation cycle. My optimization methodology involved iterative single-variable adjustment to identify optimal system configurations for both retrieval accuracy and response quality. This systematic approach ensured that performance improvements could be attributed to specific parameter changes rather than random variation. Initial optimization focused on core system parameters including maximum concurrency levels, max token allocation per retrieved chunk, reranking topK values, and generation model prompt engineering.
 
+<img src='/images/viewEvalReport.png' width='500' length='300'>
+
 The reranking topK parameter revealed the most interesting insights during this phase about the relationship between initial retrieval quality and reranking effectiveness. I discovered that while higher topK values generally improved final accuracy, the gains were usually marginal and certainly diminished beyond certain thresholds. This suggested that effective initial retrieval was more important than extensive reranking for overall system performance.
 
 Upon reaching optimized settings through parameter tuning, I shifted focus to core model optimization, systematically evaluating alternative architectures for the generation, embedding, and reranking components. While generation model optimization built upon previous experimentation, the embedding and reranking model selection required comprehensive research to balance performance improvements against processing latency constraints.
@@ -39,6 +43,8 @@ Upon reaching optimized settings through parameter tuning, I shifted focus to co
 ## Final Architecture and Outcomes
 
 Through systematic evaluation using Hugging Face model repositories, I established an optimal configuration consisting of Qwen2.5:7B for text generation, BAAI/bge-small-en-v1.5 for embedding computation, and cross-encoder/ms-marco-MiniLM-L2-V2 for reranking operations.
+
+<img src='/images/viewEnv.png' width='500' length='300'>
 
 The reranking model selection yielded particularly noteworthy results. Despite my expectations, the 2-layer MiniLM-L2-V2 model outperformed the 6-layer L6-V2 variant, achieving superior accuracy metrics despite modest latency increases. This counterintuitive finding led to our decision to prioritize performance over processing speed for the reranking component.
 
@@ -50,17 +56,4 @@ This project successfully established View Systems' first comprehensive RAG eval
 
 The optimization insights I generated through systemic testing informed not only immediate product improvements but could also improve long-term architectural decisions. Furthermore, the diverse dataset evaluation approach I implemented demonstrated the robustness of optimized configurations across different domains, hopefully providing View Systems with confidence in their ability to serve customers across diverse industries and use cases. My work contributed directly to View Systems' product, providing the performance validation and optimization capabilities to show product viability to early customers. 
 
-## Evaluation criteria
-Remember that each of the two projects in your portfolio will be evaluated on these points:
-
-* **Length**: A summary of the project goals, technology used, and outcomes, as appropriate for a general technical audience, between 1000 and 3000 words (not counting code)
-* **Content**: student’s experience demonstrates the learning outcomes for the MSHLT program [^note]
-* **Code**: Code is contained in the site, or a link to the code (such as in a GitHub repository) exists on the site.
-* **Professionalism**: Free of grammatical, mechanical, and stylistic issues
-* **Above and beyond**: How well does this component communicate the most relevant features?
-
-[^note]: The learning outcomes of the MSHLT program are:
-    
-    1. Students will demonstrate programming skills for the workplace.
-    2. Students will be able to use fundamental algorithms and concepts in Natural Language Processing.
-    3. Students will show knowledge of tools and packages used in Natural Language Processing.
+[View relevant code here.](https://github.com/fmend/viewPortfolio)
