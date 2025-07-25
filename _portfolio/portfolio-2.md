@@ -34,9 +34,9 @@ The results revealed fascinating patterns that challenged some of my initial ass
 
 The most surprising results came from BART-base. Its content similarity scores were dramatically lower than both GPT variants (0.0025 ROUGE-1 compared to ~0.13 for the GPT models), but it achieved near-perfect perplexity scores of approximately 1.0 for both generated and target text. This pattern initially puzzled me until I realized it likely indicated that BART was generating very short, highly confident outputs that didn't capture the semantic richness of the reference endings but were linguistically perfect according to its own internal model.
 
-This discovery led me to a deeper understanding of the fundamental differences between autoregressive and sequence-to-sequence architectures in story completion tasks. BART, trained with a denoising objective, seemed to prioritize linguistic certainty over semantic expansion, while the GPT models, trained on next-token prediction, were more willing to take creative risks that sometimes paid off in better semantic similarity.
-
 <img src='/images/rocstoriesSecondImage.png' width='500' length='300'>
+
+This discovery led me to a deeper understanding of the fundamental differences between autoregressive and sequence-to-sequence architectures in story completion tasks. BART, trained with a denoising objective, seemed to prioritize linguistic certainty over semantic expansion, while the GPT models, trained on next-token prediction, were more willing to take creative risks that sometimes paid off in better semantic similarity.
 
 ## Technical Challenges and Problem-Solving
 
