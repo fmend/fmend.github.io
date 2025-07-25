@@ -1,6 +1,6 @@
 ---
 title: "Neural Language Model Story Completion: A Comparative Analysis"
-excerpt: "A comparative evaluation of three neural language models on story completion tasks, analyzing their performance trade-offs between efficiency, semantic coherence, and fluency.<br/><img src='/images/500x300.png'>"
+excerpt: "A comparative evaluation of three neural language models on story completion tasks, analyzing their performance trade-offs between efficiency, semantic coherence, and fluency.<br/><img src='/images/rocstories.jpeg' width='500' length='300'>"
 collection: portfolio
 ---
 
@@ -20,6 +20,8 @@ One of my most important design decisions was implementing comprehensive error h
 
 The generation parameters required particular tuning. I settled on a temperature of 0.7 with sampling enabled, which provided a balance between creativity and coherence. The maximum token limit of 30 for new generation was chosen after extensive experimentation. Too few tokens resulted in incomplete thoughts, while too many led to rambling continuations that strayed from the narrative focus.
 
+</br><img src='/images/rocstoriesFirstImage'>
+
 ## Evaluation Methodology and Metrics
 
 I implemented a multi-faceted evaluation approach that measured both content quality and linguistic fluency. For content quality, I used ROUGE scores (1, 2, and L variants) and BLEU scores to quantify how well the generated endings matched the reference conclusions. These metrics, while imperfect, provided standardized ways to measure semantic overlap and n-gram similarity.
@@ -33,6 +35,8 @@ The results revealed fascinating patterns that challenged some of my initial ass
 The most surprising results came from BART-base. Its content similarity scores were dramatically lower than both GPT variants (0.0025 ROUGE-1 compared to ~0.13 for the GPT models), but it achieved near-perfect perplexity scores of approximately 1.0 for both generated and target text. This pattern initially puzzled me until I realized it likely indicated that BART was generating very short, highly confident outputs that didn't capture the semantic richness of the reference endings but were linguistically perfect according to its own internal model.
 
 This discovery led me to a deeper understanding of the fundamental differences between autoregressive and sequence-to-sequence architectures in story completion tasks. BART, trained with a denoising objective, seemed to prioritize linguistic certainty over semantic expansion, while the GPT models, trained on next-token prediction, were more willing to take creative risks that sometimes paid off in better semantic similarity.
+
+</br><img src='/images/rocstoriesSecondImage'>
 
 ## Technical Challenges and Problem-Solving
 
