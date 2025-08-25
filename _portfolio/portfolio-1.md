@@ -4,6 +4,25 @@ excerpt: "Working with the View Systems' development team to improve their retri
 collection: portfolio
 ---
 
+## Tools Used
+
+* LLMs, Rerankers, & Embedding Models (mostly utilizing Hugging Face)
+  * Qwen2.5:7B as well as other sizes
+  * GPT-4o as well as other models
+  * cross-encoder/ms-marco-MiniLM-L2-v2 as well as models with more layers
+  * sentence-transformers/all-MiniLM-L6-v2
+  * avsolatorio/GIST-all-MiniLM-L6-v2
+  * BAAI/bge-small-en-v1.5 as well as other sizes
+* Evaluation Metrics
+  * Recall
+  * Precision
+  * F1
+  * MRR
+  * Semantic Similarity
+  * Semantic Faithfulness
+  * Semantic Relevance
+  * General Correctness
+
 The primary objective of my internship at [View Systems](https://www.view.io) was to develop and maintain a comprehensive Retrieval-Augmented Generation (RAG) evaluation pipeline for their LLM Assistant product. The company sought to determine optimal configuration parameters for individual users based on their specific data characteristics and use cases. This required architecting an external RAG pipeline independent of the user interface to enable large-scale performance testing and optimization. I collaborated directly with Founder and CEO Joel Christner and Co-founder and Senior Member of Technical Staff Blake Martz throughout this initiative.
 
 ## A Brief Introduction to View Systems
@@ -16,7 +35,7 @@ As a lean startup organization, View Systems operated with remarkable efficiency
 
 My onboarding period involved establishing the development environment and familiarizing myself with View Systems' existing API architecture and development workflows. Under the guidance of my supervisor Blake Martz, I initially focused on constructing a foundational RAG pipeline with essential evaluation capabilities.
 
-Through systematic research and implementation, I developed a baseline evaluation framework incorporating fundamental NLP metrics including recall, precision, and F1 scores. Given that View Systems had not previously employed an NLP specialist, I provided technical guidance to the development team on these core evaluation methodologies and their implications for system performance assessment. I subsequently expanded the evaluation to include advanced metrics such as semantic similarity, faithfulness measures, and mean reciprocal rank, creating a more comprehensive performance analysis framework.
+Through systematic research and implementation, I developed a [baseline evaluation framework](https://github.com/fmend/viewPortfolio/blob/main/src/rag_eval/evaluation/metrics.py) incorporating fundamental NLP metrics including recall, precision, and F1 scores. Given that View Systems had not previously employed an NLP specialist, I provided technical guidance to the development team on these core evaluation methodologies and their implications for system performance assessment. I subsequently expanded the evaluation to include advanced metrics such as semantic similarity, faithfulness measures, and mean reciprocal rank, creating a more comprehensive performance analysis framework.
 
 <img src='/images/viewDocMetrics.png' width='500' length='300'>
 
@@ -34,7 +53,7 @@ The dataset integration process required careful consideration of data preproces
 
 I conducted extensive systematic testing runs, typically processing approximately 10,000 queries per evaluation cycle. My optimization methodology involved iterative single-variable adjustment to identify optimal system configurations for both retrieval accuracy and response quality. This systematic approach ensured that performance improvements could be attributed to specific parameter changes rather than random variation. Initial optimization focused on core system parameters including maximum concurrency levels, max token allocation per retrieved chunk, reranking topK values, and generation model prompt engineering.
 
-<img src='/images/viewEvalReport.png' width='500' length='300'>
+[<img src='/images/viewEvalReport.png' width='500' length='300'>](https://github.com/fmend/viewPortfolio/blob/main/src/rag_eval/evaluation/reporting.py)
 
 The reranking topK parameter revealed the most interesting insights during this phase about the relationship between initial retrieval quality and reranking effectiveness. I discovered that while higher topK values generally improved final accuracy, the gains were usually marginal and certainly diminished beyond certain thresholds. This suggested that effective initial retrieval was more important than extensive reranking for overall system performance.
 
