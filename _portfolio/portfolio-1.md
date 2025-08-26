@@ -23,8 +23,8 @@ collection: portfolio
   * Semantic Relevance
   * General Correctness
  * Datasets
-  * [SQuAD](https://rajpurkar.github.io/SQuAD-explorer/)
-  * [SQuADShifts](https://modestyachts.github.io/squadshifts-website/)
+   * [SQuAD](https://rajpurkar.github.io/SQuAD-explorer/)
+   * [SQuADShifts](https://modestyachts.github.io/squadshifts-website/)
 
 The primary objective of my internship at [View Systems](https://www.view.io) was to develop and maintain a comprehensive Retrieval-Augmented Generation (RAG) evaluation pipeline for their LLM Assistant product. The company sought to determine optimal configuration parameters for individual users based on their specific data characteristics and use cases. This required architecting an external RAG pipeline independent of the user interface to enable large-scale performance testing and optimization. I collaborated directly with Founder and CEO Joel Christner and Co-founder and Senior Member of Technical Staff Blake Martz throughout this initiative.
 
