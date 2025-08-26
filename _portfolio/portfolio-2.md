@@ -14,7 +14,7 @@ collection: portfolio
   * BLEU scores
   * Perplexity
 * Datasets
-  *[ROCStories](https://huggingface.co/datasets/mintujupally/ROCStories)
+  * [ROCStories](https://huggingface.co/datasets/mintujupally/ROCStories)
 
 As I approached the final phase of my Master's in Human Language Technology, I wanted to tackle a project that would demonstrate both my technical implementation skills and my understanding of fundamental questions in natural language generation. The challenge I set for myself was to build a comprehensive evaluation framework that could fairly compare different neural language models on their ability to generate coherent, contextually appropriate story endings. What emerged was not just a technical exercise, but a deep exploration into the trade-offs between model efficiency, fluency, and semantic coherence that define modern NLP.
 
