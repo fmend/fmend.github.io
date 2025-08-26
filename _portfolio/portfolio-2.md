@@ -4,11 +4,13 @@ excerpt: "A comparative evaluation of three neural language models on story comp
 collection: portfolio
 ---
 
+
+
 As I approached the final phase of my Master's in Human Language Technology, I wanted to tackle a project that would demonstrate both my technical implementation skills and my understanding of fundamental questions in natural language generation. The challenge I set for myself was to build a comprehensive evaluation framework that could fairly compare different neural language models on their ability to generate coherent, contextually appropriate story endings. What emerged was not just a technical exercise, but a deep exploration into the trade-offs between model efficiency, fluency, and semantic coherence that define modern NLP.
 
 ## Project Genesis and Motivation
 
-The inspiration for this project came from my fascination with narrative understanding and how machines can not only comprehend stories but continue them in ways that feel natural and satisfying to human readers. I chose to focus on the ROCStories dataset, which presents a particularly interesting challenge: given the first four sentences of a five-sentence story, can a language model generate an appropriate conclusion? This task requires understanding narrative structure, character motivation, causal relationships, and stylistic consistency--all fundamental aspects of human language comprehension.
+The inspiration for this project came from my fascination with narrative understanding and how machines can not only comprehend stories but continue them in ways that feel natural and satisfying to human readers. I chose to focus on the [ROCStories dataset](https://huggingface.co/datasets/mintujupally/ROCStories), which presents a particularly interesting challenge: given the first four sentences of a five-sentence story, can a language model generate an appropriate conclusion? This task requires understanding narrative structure, character motivation, causal relationships, and stylistic consistency--all fundamental aspects of human language comprehension.
 
 I decided to compare three distinct models that represented different points on the efficiency-performance spectrum: DistilGPT-2 (a compressed, efficient model), GPT-2 (the standard baseline), and BART-base (a sequence-to-sequence model with different training objectives). My hypothesis was that each would exhibit unique strengths and weaknesses that would reveal important insights about the nature of story completion as a task.
 
